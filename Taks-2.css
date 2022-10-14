@@ -1,0 +1,178 @@
+    .nav {
+        display: inline;
+    }
+    
+    .nav a {
+        float: left;
+        color: rgb(241, 230, 230);
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .nav a:hover {
+        background-color: #444;
+    }
+    
+    .nav a.active {
+        background-color: rgb(191, 41, 7);
+        color: white;
+    }
+    
+    #main {
+        text-align: center;
+        background-color: darkgrey;
+    }
+    
+    .cover-image {
+        background-image: url('shivaji_maharaj_in_black_background_hd_shivaji_maharaj.jpg');
+        min-height: 100%;
+        height: 1047px;
+        padding-top: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #title {
+        position: absolute;
+        padding-left: 20px;
+    }
+    
+    #title h1 {
+        font-family: Tangerine, Arial;
+        text-shadow: 4px 4px 4px #444;
+        font-size: 90px;
+        color: #e8570d;
+    }
+    
+    #title h4 {
+        font-family: Cookie, Dancing Script, Arial;
+        font-size: 45px;
+        text-shadow: 3px 3px 3px rgb(191, 65, 7);
+        color: #f7f2f1;
+        padding-top: 67px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-areas: 'left left left right right right' 'down down down down down down';
+    }
+    
+    .left,
+    .right,
+    .down {
+        height: 320px;
+        margin: 5px;
+    }
+    
+    .left {
+        grid-area: left;
+        padding: 30px 40px 10px 40px;
+        border-radius: 10px;
+    }
+    
+    .right {
+        grid-area: right;
+        margin-top: 20px;
+        margin-top: 147px;
+        padding: 30px 40px 10px 40px;
+        border-radius: 10px;
+        color: #dd0f0f;
+    }
+    
+    .down {
+        height: 720px;
+        grid-area: down;
+        padding: 30px 40px 10px 40px;
+        border-radius: 10px;
+    }
+    
+    hr.hr-style {
+        margin-top: 0;
+        border: 0;
+        height: 2px;
+    }
+    
+    .left h2,
+    .right h2,
+    .down h2 {
+        font-family: Felipa, Serif;
+        font-size: 35px;
+        margin: 0px;
+    }
+    
+    .left p {
+        text-align: justify;
+        font-family: Neucha, Dancing Script;
+        font-size: 25px;
+    }
+    
+    .right table {
+        text-align: justify;
+        font-family: Neucha, Dancing Script;
+        font-size: 25px;
+        padding: 10px;
+    }
+    
+    .right td {
+        padding: 8px;
+    }
+    
+    .down ul {
+        text-align: justify;
+        font-family: Neucha, Dancing Script;
+        font-size: 20px;
+        padding: 24px;
+        line-height: 1.7;
+    }
+    
+    .down ul strong {
+        background-color: rgba(224, 28, 221, 0.306);
+        padding: 3px;
+    }
+    
+    #img-div {
+        text-align: center;
+        margin: 10px 0px 20px 0px;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        padding-top: 20px;
+    }
+    
+    #image {
+        width: 100%;
+        height: auto;
+    }
+    
+    #img-caption {
+        font-family: Neucha, Serif;
+        font-size: 25px;
+        padding: 5px;
+    }
+    
+    .more-info p {
+        border: dotted;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 20px;
+        font-family: Serif;
+        margin: 20px;
+        display: inline-block;
+    }
+    
+    .more-info a {
+        color: black;
+        font-family: Neucha;
+        font-weight: bold;
+        background-color: #e84614;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .more-info a:hover {
+        background-color: #dd0f0f;
+    }
